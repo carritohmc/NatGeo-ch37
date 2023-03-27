@@ -12,18 +12,23 @@
     <title>My Nat Geo</title>
 </head>
 <body>
-    <nav>
-<img src="img/ng-border.png" alt="frame">
-<a href="#">Login</a>
-<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-<a href="#">Newsletters</a>
-<a href="#">Subscribe</a>
-<a href="#">Menu</a>
-<a href="#"><i class="fa-solid fa-angles-down"></i></a>
+    <nav class="menu">
+<img class="logo-frame" src="img/ng-border.png" alt="frame">
+<img class="logo" src="img/ng-logo-2fl.webp" alt="frame">
+<div class="links-container">
+<a class="link-login" href="#">Login</a>
+<a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+<a class="link-news" href="#">Newsletters</a>
+<a class="link-subs" href="#">Subscribe</a>
+<a class="link-menu" href="#">Menu</a>
+<a class="link-arrows" href="#"><i class="fa-solid fa-angles-down"></i></a>
+
+</div>
     </nav>
     <header>
         <h1>Latest stories</h1>
-        <p>Subscribe for full access to read stories from National Geographic</p>
+        <p> <span>Subscribe</span> for full access to read stories from National Geographic.</p>
+        <div></div>
     </header>
     <main>
         <section>
@@ -47,8 +52,11 @@
             </div>
 
         </section>
-        <section>
+        <section class="section-today">
+            <div class="todayH-container">
+                <div class="today-line"></div>
             <h2>Today's picks</h2>
+            </div>
             <div>
                 <img src="img/Ramses9.avif" alt="Picture of Ramses">
                 <h3>Travel</h3>
